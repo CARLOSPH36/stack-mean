@@ -1,0 +1,30 @@
+###
+
+GET   http://localhost:4000/api/employees
+
+###
+
+POST  http://localhost:4000/api/employees
+Content-Type: application/json
+
+{
+    "name": "Luis Quispe",
+    "position": "Junior Developer",
+    "office": "Bogota",
+    "salary": "12000"
+}
+
+###
+GET http://localhost:4000/api/employees/5ffe43654c5cf319aca8aa13
+
+
+###
+DELETE http://localhost:4000/api/employees/600063e238aff61a3839a2c0
+
+###
+PUT http://localhost:4000/api/employees/5ffe43654c5cf319aca8aa13
+Content-Type: application/json
+
+{
+    "salary": 800000
+}
